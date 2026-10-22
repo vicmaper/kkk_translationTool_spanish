@@ -1,0 +1,27 @@
+name: Error de traducción o de texto
+description: Una línea mal traducida, cortada, con errores o que se ve mal en el juego.
+labels: ["traducción"]
+body:
+  - type: input
+    id: mensaje
+    attributes:
+      label: Número de mensaje (id) o escena
+      description: El id sale en la ventana (pestaña «Editar la traducción»). Si no lo sabes, describe la escena.
+    validations:
+      required: true
+  - type: textarea
+    id: texto
+    attributes:
+      label: Texto actual y propuesta
+      description: Copia SOLO el texto en español (no pegues texto japonés del juego).
+    validations:
+      required: true
+  - type: dropdown
+    id: estilo
+    attributes:
+      label: Cuadro de texto que usas
+      options: [BARRA, ABAJO, ORIGINAL, No sé]
+  - type: textarea
+    id: captura
+    attributes:
+      label: Captura de pantalla (opcional)
