@@ -1,0 +1,21 @@
+name: Pedir soporte para otra edición del juego
+description: Tu copia de Kajiri Kamui Kagura no es el DVD de la caja Dies irae & WORLD BOX (2017).
+labels: ["otra edición"]
+body:
+  - type: input
+    id: edicion
+    attributes:
+      label: Edición y año
+      description: "Ej.: paquete original 2010, Akebono no Hikari 2013, versión de descarga…"
+    validations:
+      required: true
+  - type: input
+    id: codigo
+    attributes:
+      label: Código de tu versión
+      description: Los códigos de exec.dat y malie.exe que muestra la ventana del parche (pestaña «Mi juego»).
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "**No subas archivos del juego** (data1.dat, malie.exe, etc.). Con los códigos basta para empezar."
