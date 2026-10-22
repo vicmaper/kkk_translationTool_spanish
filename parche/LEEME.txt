@@ -1,0 +1,59 @@
+PARCHE EN ESPAÑOL - KAJIRI KAMUI KAGURA (神咒神威神楽)
+=====================================================
+Traducción de aficionados, sin fines de lucro. Necesitas TU PROPIA copia del juego.
+
+EDICIÓN COMPATIBLE
+  Solo el DVD de Kajiri Kamui Kagura incluido en «Dies irae & WORLD BOX ~Masada Premium~» (light, 2017),
+  malie.exe versión 1.1. El instalador comprueba la edición y no hace nada si no coincide.
+
+QUÉ TRADUCE
+  Todo el guion (mensajes 0 a 27863), menús, configuración, cartas, fichas de personajes, extras y los
+  menús de Windows (malie_es.exe). La caja de nombres muestra «？？？» hasta que la historia revela a cada
+  personaje. Los títulos de las canciones se dejan en japonés.
+  Nota: algunas escenas de Ryūsui salen como «…» (la voz original se oye igual); fue una decisión del
+  equipo porque el personaje tiene aspecto infantil.
+
+REQUISITOS
+  - Windows (en Steam Deck / Linux: instala en Windows o pregunta en el canal del proyecto).
+  - Python 3 (gratis, python.org). Al instalarlo marca «Add Python to PATH».
+  - Unos 150 MB libres en la carpeta del juego.
+
+INSTALAR
+  1. Copia esta carpeta (KKK_parche_es) a cualquier lugar.
+  2. Arrastra la CARPETA DEL JUEGO (la que tiene data1.dat y malie.exe) encima de INSTALAR.bat.
+     (O haz doble clic en INSTALAR.bat y escribe la ruta.)
+  3. Espera a que diga LISTO (unos minutos).
+  4. Juega con malie_es.exe (está en la carpeta del juego).
+  No se modifica data1.dat, data2.dat ni malie.exe. Se crean data3.dat y malie_es.exe.
+
+DESINSTALAR
+  Borra data3.dat y malie_es.exe de la carpeta del juego. Si tenías otro data3.dat, el instalador lo guardó
+  como data3_antes_del_parche.dat: renómbralo a data3.dat.
+
+PARTIDAS GUARDADAS
+  Las partidas del juego en japonés deberían cargar con el parche (los mensajes conservan su número),
+  pero no está probado en todos los casos: haz una copia de %APPDATA%\light\神咒神威神楽\save antes.
+
+QUIERO HACER O CORREGIR MI PROPIA TRADUCCIÓN
+  1. EXTRAER: arrastra la carpeta del juego encima de EXTRAER_CSV.bat.
+     Crea mi_traduccion.csv (aquí mismo) con: id, voice, japanese (sacado de TU juego), spanish (la
+     traducción actual) y status. Solo para ti: lleva el texto original, no lo compartas.
+  2. EDITAR: cambia solo la columna spanish (Excel o LibreOffice; guarda como "CSV UTF-8").
+     Respeta los códigos entre llaves: {v:…}…{/v} (voz), {end} (pausa/fin; el mismo número que el japonés),
+     {n} (salto de línea), {u0006}X (letras divinas jindai: no se tocan). Máximo 900 caracteres por mensaje.
+     Una celda vacía deja el texto original en japonés.
+  3. INTEGRAR: haz doble clic en INTEGRAR.bat (o arrastra tu CSV encima) y escribe la ruta del juego.
+     Primero revisa el formato y corrige lo seguro; si dice «LISTO PARA INTEGRAR», mete tu traducción en el
+     juego. Si no, te dice qué filas arreglar (archivo ..._FILAS_CON_ERROR.csv).
+  Para compartir tu traducción sin el texto japonés: pásala por REVISAR.bat y comparte la columna id+spanish
+  (o pide un .tsv). NUNCA compartas data3.dat, mi_traduccion.csv con la columna japanese, ni archivos del juego.
+
+CONTENIDO DEL PAQUETE
+  INSTALAR.bat                        instala la traducción del paquete
+  EXTRAER_CSV.bat / INTEGRAR.bat      sacar el CSV de tu juego / meter tu traducción
+  REVISAR.bat                         solo revisar el formato de un .csv o .tsv
+  datos\traduccion_es.tsv             la traducción (solo español)
+  datos\interfaz_es.dat               imágenes de la interfaz en español
+  datos\exec_parche.json              ajustes técnicos del guion (texto horizontal, nombres)
+  datos\exe_parche.json               menús de Windows en español
+  herramientas\                       armar.py, extraer.py, kkk_revisar.py y librerías

@@ -1,0 +1,240 @@
+﻿=====================================================================
+  KAJIRI KAMUI KAGURA EN ESPAÑOL - GUÍA FÁCIL
+  (no necesitas saber de computación: sigue los pasos en orden)
+=====================================================================
+
+ANTES DE EMPEZAR: ¿QUÉ NECESITO?
+---------------------------------
+1. Tu juego instalado: Kajiri Kamui Kagura, el DVD que viene en la caja
+   «Dies irae & WORLD BOX» (2017). Con otras ediciones NO funciona
+   (el instalador te avisa y no hace nada).
+2. Una computadora con Windows.
+3. El programa Python (es gratis). Más abajo te explico cómo instalarlo.
+4. Unos 150 MB libres en el disco.
+
+Este parche NO trae el juego. Usa los archivos de TU copia.
+No borra ni cambia tus archivos originales: solo agrega dos archivos nuevos.
+
+
+---------------------------------------------------------------------
+PARTE 1: INSTALAR PYTHON (solo la primera vez)
+---------------------------------------------------------------------
+(Si vas a usar KKK_Traduccion.exe, NO necesitas Python: sáltate esta parte.)
+1. Abre tu navegador y entra a:  https://www.python.org/downloads/
+2. Haz clic en el botón amarillo grande «Download Python».
+3. Abre el archivo que se descargó.
+4. MUY IMPORTANTE: en la primera ventana, ABAJO, marca la casilla
+      [x] Add python.exe to PATH
+   (si no la marcas, el parche no va a funcionar).
+5. Haz clic en «Install Now» y espera a que termine. Cierra la ventana.
+
+¿Ya lo tenías instalado? Sáltate esta parte.
+
+
+---------------------------------------------------------------------
+FORMA MÁS FÁCIL: LA VENTANA (recomendada)
+---------------------------------------------------------------------
+Doble clic en  KKK_Traduccion.exe  (o en ABRIR_GUI.bat si no está el .exe).
+  Pestaña 1 «Mi juego»:
+    - «Examinar…» y elige la carpeta del juego (la que tiene data1.dat).
+      Te dice si tu edición es la correcta y muestra el código de tu versión.
+    - Elige el cuadro de texto (BARRA, ABAJO u ORIGINAL; ver abajo).
+    - «Instalar / actualizar el parche». Tarda unos 10 minutos.
+    - «Cambiar solo el cuadro de texto» si después quieres otro estilo.
+  Pestaña 2 «Editar la traducción»: extraer, buscar, corregir, revisar e
+    integrar tu traducción, todo desde la ventana.
+  Pestaña 3: enlaces al Discord, a GitHub y al glosario.
+Si prefieres no usar la ventana, la PARTE 2 hace lo mismo con los .bat.
+
+---------------------------------------------------------------------
+LOS 3 CUADROS DE TEXTO
+---------------------------------------------------------------------
+  BARRA     (recomendado) barra de lado a lado hecha para este parche.
+            92 letras x 6 renglones: cabe todo el texto.
+  ABAJO     la imagen original del panel del juego, acostada como barra abajo.
+            92 x 5: cabe todo y tapa menos la imagen.
+  ORIGINAL  el panel original del juego, de pie a un lado (como en japonés),
+            con el texto horizontal. 21 x 19: 5 mensajes muy largos se cortan.
+Los saltos de línea se acomodan SOLOS al estilo que elijas: no tienes que hacer nada.
+Puedes cambiar de uno a otro cuando quieras sin perder tus partidas:
+ventana (pestaña 1) o arrastra la carpeta del juego sobre CAMBIAR_ESTILO.bat.
+
+---------------------------------------------------------------------
+PARTE 2: PONER EL JUEGO EN ESPAÑOL (con los .bat)
+---------------------------------------------------------------------
+1. Descomprime este paquete (clic derecho > «Extraer todo...»).
+   Te queda una carpeta llamada KKK_parche_es. Ponla donde quieras
+   (por ejemplo, en el Escritorio).
+
+2. Busca la CARPETA DEL JUEGO. Es la carpeta donde está instalado y tiene
+   estos archivos adentro:  data1.dat   data2.dat   malie.exe
+   ¿No sabes dónde está? Clic derecho en el acceso directo del juego >
+   «Abrir ubicación del archivo».
+
+3. Abre las dos carpetas lado a lado. Con el ratón, ARRASTRA la carpeta
+   del juego (la carpeta completa, no los archivos de adentro) y suéltala
+   ENCIMA del archivo  INSTALAR.bat  de la carpeta del parche.
+
+   (Otra forma: doble clic en INSTALAR.bat y, cuando te pida la ruta,
+   escríbela, por ejemplo:  C:\Juegos\KajiriKamuiKagura  y presiona Enter.)
+
+4. Se abre una ventana negra. Elige el cuadro de texto (1, 2 o 3) y Enter.
+   NO CIERRES la ventana.
+   Tarda unos 10 minutos. Verás pasos del 1/6 al 6/6.
+
+5. Cuando diga  «LISTO»,  presiona cualquier tecla para cerrarla.
+
+6. Para jugar en español, abre  malie_es.exe  (está en la carpeta del juego).
+   Consejo: haz un acceso directo (clic derecho > Enviar a > Escritorio).
+
+¡Listo! El texto, los menús, la configuración, las fichas de personajes,
+las cartas y los extras ya están en español.
+
+
+---------------------------------------------------------------------
+PARTE 3: QUITAR EL PARCHE
+---------------------------------------------------------------------
+Entra a la carpeta del juego y borra estos dos archivos:
+   data3.dat
+   malie_es.exe
+Si ahí aparece  data3_antes_del_parche.dat , cámbiale el nombre a  data3.dat
+(es el que tenías antes). El juego vuelve a estar en japonés.
+
+
+---------------------------------------------------------------------
+PROBLEMAS FRECUENTES
+---------------------------------------------------------------------
+* «python no se reconoce como un comando...»
+  -> Python no está instalado o no marcaste «Add python.exe to PATH».
+     Vuelve a instalarlo (Parte 1) marcando esa casilla y reinicia la PC.
+
+* «ERROR: tu juego es de otra edición»
+  -> Tu copia no es la del DVD de 2017. Este parche no sirve para esa versión.
+
+* «ERROR: no encontré data1.dat»
+  -> Arrastraste la carpeta equivocada. Debe ser la que TIENE data1.dat adentro.
+
+* La ventana negra se cierra sola de inmediato.
+  -> Mueve la carpeta del parche a un lugar con nombre sencillo
+     (por ejemplo C:\KKK_parche_es) y vuelve a intentarlo.
+
+* El antivirus avisa algo de un archivo .bat.
+  -> Los .bat son solo listas de instrucciones de texto (puedes abrirlos con el
+     Bloc de notas para ver qué hacen). Permite que se ejecuten.
+
+* Algunas escenas de Ryūsui solo muestran «…».
+  -> Es a propósito: fue una decisión del equipo de traducción. La voz original
+     se escucha igual.
+
+* ¿Mis partidas guardadas?
+  -> Deberían seguir funcionando. Por si acaso, antes copia la carpeta:
+     %APPDATA%\light\神咒神威神楽\save
+     (pégalo en la barra de direcciones del Explorador de archivos).
+
+
+=====================================================================
+EXTRA: QUIERO CORREGIR O MEJORAR LA TRADUCCIÓN
+=====================================================================
+Puedes cambiar cualquier texto del juego. Necesitas Excel o LibreOffice
+(LibreOffice es gratis: https://www.libreoffice.org).
+
+PASO 1 - SACAR EL ARCHIVO PARA EDITAR
+  Arrastra la carpeta del juego encima de  EXTRAER_CSV.bat
+  Tarda unos segundos. Aparece un archivo nuevo en la carpeta del parche:
+     mi_traduccion.csv
+  Tiene una fila por cada mensaje del juego (son 27,864) y estas columnas:
+     id         número del mensaje (no lo cambies)
+     voice      voz del personaje (no la cambies)
+     japanese   texto original en japonés (no lo cambies)
+     spanish    LA TRADUCCIÓN  <- solo editas esta columna
+     status     no lo cambies
+
+PASO 2 - EDITAR
+  1. Abre mi_traduccion.csv con Excel o LibreOffice.
+     - LibreOffice: en la ventana que aparece, elige «Juego de caracteres: Unicode
+       (UTF-8)» y «Separado por: Coma». Acepta.
+  2. Busca el mensaje que quieres cambiar (Ctrl+B o Ctrl+F para buscar texto).
+  3. Cambia el texto en la columna spanish.
+  4. Guarda:
+     - Excel: Archivo > Guardar como > tipo «CSV UTF-8 (delimitado por comas)».
+     - LibreOffice: Archivo > Guardar como > «Texto CSV», marca «Editar
+       configuración de filtros», elige Unicode (UTF-8) y coma. Si pregunta,
+       elige «Usar el formato Texto CSV».
+     No borres filas ni cambies el nombre del archivo.
+
+  REGLAS AL EDITAR (lo más importante):
+  Algunas partes del texto están entre llaves { }. Son instrucciones para el
+  juego: NO las borres, NO las cambies y NO las muevas de lugar.
+     {v:v_rnd0001}  ...  {/v}    = la voz del personaje. Déjalas al inicio y al final.
+     {end}                       = pausa o fin del mensaje. Debe quedar la MISMA
+                                   cantidad que en la columna japanese.
+     {n}                         = salto de línea.
+     {u0006}...                  = letras antiguas del juego. No las toques.
+  Ejemplo correcto:
+     {v:v_rnd0001}「Hola, ¿cómo estás?」{/v}{end}
+  Ejemplo INCORRECTO (borró {end}):
+     {v:v_rnd0001}「Hola, ¿cómo estás?」{/v}
+  Otras reglas:
+     - Los diálogos van entre 「 」 (cópialos del texto que ya está).
+     - No pongas Enter dentro de una celda. Para cambiar de línea usa {n}.
+     - Máximo unos 900 caracteres por mensaje (si es más largo, el juego se cierra).
+     - Si dejas la celda vacía, ese mensaje sale en japonés.
+
+PASO 3 - METER TU TRADUCCIÓN AL JUEGO
+  1. Doble clic en  INTEGRAR.bat  (también te pregunta el cuadro de texto)
+     (si tu archivo tiene otro nombre o está en otro lugar, arrástralo encima).
+  2. Te pide la ruta del juego: escríbela y presiona Enter.
+  3. Primero REVISA tu archivo:
+     - Si dice  «LISTO PARA INTEGRAR»,  sigue solo y en unos 10 minutos
+       tu traducción ya está en el juego. Ábrelo con malie_es.exe.
+     - Si dice  «NO INTEGRAR TODAVÍA»,  hay errores. Abre el archivo
+          mi_traduccion_FILAS_CON_ERROR.csv
+       Ahí está cada fila con problema y qué tiene mal. Corrígelas en
+       mi_traduccion.csv, guarda y repite el PASO 3.
+  La revisión arregla sola los detalles pequeños (nombres con acento, puntos
+  suspensivos, espacios) y deja tu archivo arreglado como
+     mi_traduccion_CORREGIDO.csv
+  Ese es el que se mete al juego. Tu archivo original no se toca.
+  En  mi_traduccion_INFORME.txt  puedes ver qué se corrigió.
+
+SOLO REVISAR, SIN INSTALAR
+  Arrastra tu archivo encima de  REVISAR.bat .
+
+COMPARTIR TU TRADUCCIÓN CON OTROS
+  NO compartas: data3.dat, mi_traduccion.csv ni archivos del juego
+  (llevan el texto original en japonés, que es del juego).
+  SÍ puedes compartir solo tus textos en español: abre tu _CORREGIDO.csv,
+  borra la columna japanese y guárdalo con otro nombre. Quien lo reciba
+  primero corre EXTRAER_CSV.bat una vez (para que la revisión tenga el
+  japonés de SU juego) y luego arrastra tu archivo encima de INTEGRAR.bat.
+
+
+---------------------------------------------------------------------
+¿QUÉ HAY EN ESTA CARPETA?
+---------------------------------------------------------------------
+  LEEME_PRIMERO.txt   esta guía
+  KKK_Traduccion.exe  la ventana (instalar, cambiar cuadro de texto, editar)
+  ABRIR_GUI.bat       abre la ventana con Python (si no está el .exe)
+  CAMBIAR_ESTILO.bat  cambia el cuadro de texto de un juego ya parchado
+  GENERAR_ESTILOS.bat crea los 3 estilos a la vez en mis_estilos\ (arrastra tu data3.dat;
+                      la primera vez lee el guion de tu data1.dat, que debe estar junto al data3)
+  CREAR_EXE.bat       crea KKK_Traduccion.exe (solo para quien publica)
+  glosario_kkk.html   glosario sin spoilers (ábrelo con el navegador)
+  LEEME.txt           guía más técnica
+  INSTALAR.bat        pone el juego en español (Parte 2)
+  EXTRAER_CSV.bat     saca el archivo para editar la traducción
+  INTEGRAR.bat        revisa y mete tu traducción al juego
+  REVISAR.bat         solo revisa un archivo de traducción
+  datos\              la traducción y la interfaz en español (no los muevas)
+  herramientas\       los programas que usan los .bat (no los muevas)
+
+---------------------------------------------------------------------
+CONTACTO, ERRORES Y OTRAS EDICIONES
+---------------------------------------------------------------------
+  Discord:  https://discord.gg/NV8TbQQ7B
+  GitHub:   https://github.com/vicmaper/kkk_translationTool_spanish
+            (pestaña «Issues» para reportar errores o pedir otra edición)
+Si tu juego es de otra edición, mándanos el «código de tu versión» que
+muestra la ventana (o la pantalla de error del instalador).
+
+Steam Deck: guía en la carpeta steamdeck del repositorio de GitHub.
