@@ -1,0 +1,17 @@
+# Nunca subir archivos del juego ni el guion japonés
+*.dat
+*.iso
+*.exe
+*.dll
+*.ogg
+*.mpg
+kkk_script_BUENO.csv
+*_CORREGIDO.csv
+*_FILAS_CON_ERROR.csv
+mi_traduccion*.csv
+*.reg
+# Python
+__pycache__/
+*.pyc
+mis_estilos/
+kkk_gui_config.json
