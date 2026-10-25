@@ -8,7 +8,7 @@ Parche no oficial, hecho por fans y sin fines de lucro, que pone en español **�
 **Solo se probó con:** el DVD de Kajiri Kamui Kagura incluido en la caja **«Dies irae & WORLD BOX ~\Masada Premium\~ (2017)**, `malie.exe` versión 1.1.
 
 El instalador revisa tu copia antes de tocar nada. Si es otra edición (2010, Akebono no Hikari 2013, etc.), te avisa y no cambia nada.
-**¿Tienes otra edición?** Escríbenos en el [Discord](https://discord.gg/NV8TbQQ7B) (canal **#otras-versiones**) o abre un [Issue](../../issues/new/choose) con tu edición y el código que te muestra el instalador, e intentaremos adaptarlo.
+**¿Tienes otra edición?** Escríbenos en el [Discord](https://discord.gg/k3Zfp85jMr) (canal **#otras-versiones**) o abre un [Issue](../../issues/new/choose) con tu edición y el código que te muestra el instalador, e intentaremos adaptarlo.
 
 ## Descargar
 Ve a **[Releases](../../releases)** y descarga el paquete completo `KKK_parche_es_vX.zip`. Trae el archivo grande `interfaz_es.dat`, que no está en el código de este repositorio.
@@ -99,5 +99,5 @@ Las reglas de formato están en `LEEME_PRIMERO.txt`. **No compartas** tu `mi_tra
 - **Tipografías:** EB Garamond y Liberation Serif (SIL Open Font License).
 
 ## Contacto
-- **Discord:** https://discord.gg/NV8TbQQ7B — ayuda, avisos de nuevas versiones y canal **#otras-versiones**.
+- **Discord:** https://discord.gg/k3Zfp85jMr — ayuda, avisos de nuevas versiones y canal **#otras-versiones**.
 - **GitHub Issues:** [reportar un error de traducción o pedir soporte para otra edición](../../issues/new/choose).

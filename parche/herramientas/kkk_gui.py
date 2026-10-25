@@ -23,7 +23,7 @@ for m in (armar, extraer, cambiar_estilo, kkk_revisar):           # que usen las
     if hasattr(m, 'RAIZ'): m.RAIZ = BASE
 armar.DATOS = DATOS
 
-DISCORD = 'https://discord.gg/NV8TbQQ7B'
+DISCORD = 'https://discord.gg/k3Zfp85jMr'
 GITHUB = 'https://github.com/vicmaper/kkk_translationTool_spanish'
 CONFIG = os.path.join(BASE, 'kkk_gui_config.json')
 VERSION_TXT = ('Este parche es para: Kajiri Kamui Kagura, DVD de la caja «Dies irae & WORLD BOX ~Masada Premium~» '

@@ -231,7 +231,7 @@ COMPARTIR TU TRADUCCIÓN CON OTROS
 ---------------------------------------------------------------------
 CONTACTO, ERRORES Y OTRAS EDICIONES
 ---------------------------------------------------------------------
-  Discord:  https://discord.gg/NV8TbQQ7B
+  Discord:  https://discord.gg/k3Zfp85jMr
   GitHub:   https://github.com/vicmaper/kkk_translationTool_spanish
             (pestaña «Issues» para reportar errores o pedir otra edición)
 Si tu juego es de otra edición, mándanos el «código de tu versión» que
